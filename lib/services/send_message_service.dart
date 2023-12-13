@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 class SendMessageService {
   Future<List<ChatModel>> sendMessage({required String msg}) async {
     String apiUrl = 'https://api.openai.com/v1/chat/completions';
-    String apikey = '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';
+    String apikey = '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';
 
     var response = await http.post(
       Uri.parse(apiUrl),
